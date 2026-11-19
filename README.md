@@ -41,7 +41,7 @@ https://github.com/ouncebrew/libounce and the following switch packages
 
 ### Compile
 ```bash
-git clone https://github.com/Ludwigmk/SimpleModManager-oz.git
+git clone --recursive https://github.com/Ludwigmk/SimpleModManager-oz.git
 cd SimpleModManager
 mkdir build 
 cd build
