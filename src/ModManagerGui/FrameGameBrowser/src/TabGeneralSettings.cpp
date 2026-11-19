@@ -23,10 +23,7 @@ void TabGeneralSettings::rebuildLayout() {
 
   itemInstallLocationPreset = new brls::ListItem(
     "\uE255 Install location:",
-    "Specify from which base folder mods will be installed.\n"\
-    "- If you are using Atmosphere, mods have to be installed in /atmosphere/. "\
-    "This corresponds to the \"default\" preset. You need to take this path into account in your mod tree structure.\n"\
-    "- If you want to set a specific install folder for a given game, please refer to its Option tab and go to \"Attribute a config preset\".",
+    "<mod-tree-structure> will be placed directly on the sd root",
     ""
   );
   itemInstallLocationPreset->setValue(this->getConfig().getCurrentPresetName() );

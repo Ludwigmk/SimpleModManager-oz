@@ -17,9 +17,9 @@ endmacro()
 
 msys_to_cmake_path($ENV{DEVKITPRO} DEVKITPRO)
 set(DEVKITA64 ${DEVKITPRO}/devkitA64)
-set(LIBNX ${DEVKITPRO}/libnx)
+set(LIBNX ${DEVKITPRO}/libounce)
 set(PORTLIBS_PATH ${DEVKITPRO}/portlibs)
-set(PORTLIBS ${PORTLIBS_PATH}/switch)
+set(PORTLIBS ${PORTLIBS_PATH}/switch2)
 
 set(TOOLCHAIN_PREFIX ${DEVKITA64}/bin/aarch64-none-elf-)
 if (WIN32)
