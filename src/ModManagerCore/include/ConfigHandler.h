@@ -35,9 +35,6 @@ struct ConfigHolder{
   std::string baseFolder{"/mods"};
   int selectedPresetIndex{0};
   std::vector<PresetConfig> presetList{
-      {{"default"}, {"/atmosphere"}},
-      {{"reinx"}, {"/reinx"}},
-      {{"sxos"}, {"/sxos"}},
       {{"root"}, {"/"}},
   };
   std::string lastSmmVersion{};

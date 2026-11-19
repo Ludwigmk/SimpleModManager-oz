@@ -116,7 +116,7 @@ void ConfigHandler::dumpConfigToFile() const {
   ssConfig << std::endl;
   for( auto &preset : _config_.presetList ){
     ssConfig << "########################################" << std::endl;
-    ssConfig << "# preset that can be changed in the app" << std::endl;
+    ssConfig << "# preset that can be changed in the app when more presets are added in the config(WARNING: this is appears to be buggy)" << std::endl;
     ssConfig << "preset = " << preset.name << std::endl;
     ssConfig << std::endl;
     ssConfig << "# base folder where mods are installed" << std::endl;
